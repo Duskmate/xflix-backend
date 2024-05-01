@@ -40,13 +40,15 @@ You should complete the given project so that it passes all the test cases when 
 
 **Read Only Files**
 
-- `test/*.spec.js`
-- `fixtures/*.json`
-- `models/students.js`
+- `src/*.test.js`
+- `data/*.json`
+- `src/models/index.js`
+- `src/models/video.model.js`
+- `src/config/config.js`
 
 ## Environment
 
-- Node Version: v14(LTS)
+- Node Version: v18(LTS)
 - Default Port: 8082
 
 **Commands**
