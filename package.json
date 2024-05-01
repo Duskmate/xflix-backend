@@ -14,6 +14,7 @@
     "http-status": "^1.7.3",
     "i": "^0.3.7",
     "jest": "^27.5.1",
+    "jest-junit": "^16.0.0",
     "joi": "^17.11.0",
     "mongoose": "^8.0.1",
     "nodemon": "^3.0.1",
@@ -31,7 +32,6 @@
     "build": "react-scripts build",
     "test": "jest --runInBand --detectOpenHandles --forceExit",
     "eject": "react-scripts eject"
-  }
   },
   "eslintConfig": {
     "extends": [
