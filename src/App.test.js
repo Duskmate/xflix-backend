@@ -30,7 +30,7 @@ describe("Videos", () => {
   it("should return videos on GET request", async() => {
     let getVideos = await supertest(app).get('/v1/videos')
     expect(getVideos).toBeTruthy();
-    expect(getVideos.body).toEqual(30)
+    expect(getVideos.body.length).toEqual(30)
   });
 
   it("GET /v1/videos?genres=Sports - Verify exactly 6 videos are available for Sports genre", async() => {
