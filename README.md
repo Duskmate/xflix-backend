@@ -28,7 +28,7 @@ The model implementation is provided and read-only and the seed data is loaded i
 
 Your task is to implement the REST service that exposes the /v1/videos endpoint, which allows for filtering the collection of students in the following way:
 
-- GET request to `/students?genre=Sports`:
+- GET request to `/v1/videos?genre=Sports`:
   - returns the list of all the students present in the videos collection
   - the response code is 200, and the response body returns the list of all the students present
   - optionally accepts the query param `genre` for filtering videos
