@@ -1,9 +1,8 @@
 const express = require("express");
+const videoRoute = require("./video.route");
 
 const router = express.Router();
 
-router.get("/videos", function (req, res, next) {
-  res.send("data");
-})
+router.use("/videos", videoRoute)
 
 module.exports = router;
